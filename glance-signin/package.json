@@ -1,0 +1,15 @@
+{
+  "name": "glance-signin",
+  "version": "1.0.0",
+  "description": "Amazon Lambda microservice for user sign-in",
+  "main": "glance-signin.js",
+  "dependencies": {
+    "firebase": "^2.2.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ravi",
+  "license": "ISC"
+}

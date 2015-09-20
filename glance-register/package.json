@@ -1,0 +1,15 @@
+{
+  "name": "glance-register",
+  "version": "1.0.0",
+  "description": "Amazon Lambda microservice to create user account",
+  "main": "glance-register.js",
+  "dependencies": {
+    "firebase": "^2.2.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ravi",
+  "license": "ISC"
+}

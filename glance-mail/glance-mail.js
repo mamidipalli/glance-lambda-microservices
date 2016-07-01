@@ -2,7 +2,7 @@
 var Mailgun = require('mailgun').Mailgun;
 var fs = require('fs');
 
-var mg = new Mailgun('key-b0cdeda21aa520f31e4f569067fc4b2e');
+var mg = new Mailgun('');
 var htmlMsg = fs.readFileSync('./glance-mail/account-activation.html', 'utf8');
 
 exports.handler = function (event, context) {
